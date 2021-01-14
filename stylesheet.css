@@ -1,4 +1,4 @@
-file CSS
+file CSS stylesheet
 
 /* Reset CSS (JANGAN DIHAPUS) */
 html, body,
@@ -21,6 +21,36 @@ a {
 }
 
 /* Ketik code Anda dibawah */
+
+/*header*/
+header {
+  position: fixed;
+  top: 0;
+  background-color: rgba(34, 49, 52, 0.9);
+  height: 65px;
+  width: 100%;
+  z-index: 100;
+}
+.logo {
+  width: 124px;
+  margin-left: 20px;
+}
+.header-kiri {
+  float: left;
+}
+.header-kanan a {
+  color: white;
+  padding: 0 25px;
+  margin: -20px 30px;
+  line-height: 65px;
+  display: block;
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+.login:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
 
 /*class top*/
 .top {
@@ -76,6 +106,9 @@ a {
 .fa {
   margin-right: 7px;
 }
+
+
+
 
 
 
