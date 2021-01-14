@@ -32,19 +32,50 @@ a {
   padding: 20px;
 }
 .top h1, p {
-  color: #ddd;
+  color: white;
   text-align: center;
+  opacity: 0.7;
 }
 .top h1 {
   font-size: 45px;
   letter-spacing: 5px;
   margin-bottom: 10px;
 }
+.top p {
+  padding: 1px;
+}
 .aa {
   margin-top: 160px;
 }
-
-
+.btn-top {
+  text-align: center;
+  margin: 20px 10px;
+}
+.btn {
+  padding: 12px 18px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+}
+.btn:hover {
+  opacity: 1;
+}
+.atau {
+  margin: 9px 0px;
+}
+.email {
+  background-color: #239b76;
+}
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+.twitter {
+  background-color: #55acee;
+}
+.fa {
+  margin-right: 7px;
+}
 
 
 
