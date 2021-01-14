@@ -1,4 +1,5 @@
 file CSS
+
 /* Reset CSS (JANGAN DIHAPUS) */
 html, body,
 ul, ol, li,
@@ -20,3 +21,32 @@ a {
 }
 
 /* Ketik code Anda dibawah */
+
+/*class top*/
+.top {
+  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-size: cover;
+  height: 600px;
+}
+.container {
+  padding: 20px;
+}
+.top h1, p {
+  color: #ddd;
+  text-align: center;
+}
+.top h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+.aa {
+  margin-top: 160px;
+}
+
+
+
+
+
+
+
